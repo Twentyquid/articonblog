@@ -34,6 +34,9 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+  other: {
+    "google-site-verification": "egSP4JQTHSov3n3eG8_",
+  },
 };
 
 export default function RootLayout({ children }) {
