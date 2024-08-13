@@ -5,7 +5,7 @@ export const sitemetadata = {
     description: 'Student Club of Department of AD',
     language: 'en-us',
     theme: 'system',
-    siteUrl: 'http://localhost:3000',
+    siteUrl: 'https://articon.unparallel.in/',
     siteLogo: '/logo.png',
     socialBanner: '/banner.png',
     locale: 'en-IN'

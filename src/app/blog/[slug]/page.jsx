@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
       openGraph: {
         title: postData.title,
         description: postData.description,
-        url: "http://localhost:3000/blog/" + postData.slug,
+        url: "https://articon.unparallel.in/blog/" + postData.slug,
         siteName: sitemetadata.title,
         locale: "en_IN",
         type: "article",
