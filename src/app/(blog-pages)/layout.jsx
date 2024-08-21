@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 import { sitemetadata } from "@/lib/siteMetadata";
 import "remixicon/fonts/remixicon.css";
 import SearchBox from "@/components/SearchBox";
