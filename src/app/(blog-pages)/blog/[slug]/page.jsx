@@ -1,3 +1,5 @@
+"use server";
+
 import clientPromise from "@/lib/mongodb";
 import Avvvatars from "avvvatars-react";
 import "@/lib/codeTheme.css";
@@ -120,9 +122,9 @@ async function PostComponent({ params }) {
                 </p>
               </div>
             </div>
-            <div className="text-5xl font-black capitalize  my-4">
+            <h1 className="text-5xl font-black capitalize  my-4">
               {postData["title"]}
-            </div>
+            </h1>
             {/* rendered content from markdown 👇*/}
             <div
               className="prose prose-neutral prose-invert max-w-full"
