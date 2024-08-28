@@ -1,0 +1,17 @@
+.custom-editor{
+    background-color: black;
+    font-size: 16px;
+    // padding-top: 30px;
+    ::selection {
+        background: #A5B4FB;
+        color: black;
+      }
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}
